@@ -32,7 +32,7 @@ time-based decision logic.
 - MiCS-4514 gas sensor (I²C)
 - DHT22 temperature and humidity sensor
 - LDR (ambient light sensing)
-- 0.96" OLED display (I²C)
+- OLED display (I²C)
 - Active buzzer
 - Breadboard and jumper wires
 - 3D-printed enclosure
@@ -75,13 +75,14 @@ A baseline is set after warm-up and only updates when air returns to cleaner con
 ## Repository Structure
 
     .
-    ├── src/
-    │   └── kitchen_safety_monitor.ino
-    ├── images/
-    │   ├── system_architecture.png
-    │   ├── baseline_calibration.png
-    │   └── prototype.jpg
-    └── README.md
+    0016_Kitchen_Monitor/
+    ├─ images/
+    │  ├─ baseline_calibration.png
+    │  ├─ prototype.jpg
+    │  └─ system_architecture.png
+    ├─ 0016_Kitchen_Monitor.ino
+    ├─ README.md
+
 
 ---
 
